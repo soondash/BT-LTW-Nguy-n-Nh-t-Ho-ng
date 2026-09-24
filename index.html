@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validate Cho Người Mới</title>
+    <!-- Liên kết đến file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Form đăng ký -->
+    <form id="myForm">
+        
+        <!-- Nhóm Họ tên -->
+        <div class="form-group">
+            <label>Họ tên:</label>
+            <input type="text" id="name" placeholder="Nhập họ tên...">
+            <span id="nameError" class="error-text"></span>
+        </div>
+
+        <!-- Nhóm Email -->
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="text" id="email" value="an@ptit">
+            <span id="emailError" class="error-text"></span>
+        </div>
+
+        <!-- Nhóm Số điện thoại -->
+        <div class="form-group">
+            <label>Số điện thoại:</label>
+            <input type="text" id="phone" placeholder="Nhập 10 số...">
+            <span id="phoneError" class="error-text"></span>
+        </div>
+
+        <button type="submit">Gửi thông tin</button>
+    </form>
+
+    <!-- Liên kết đến file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
