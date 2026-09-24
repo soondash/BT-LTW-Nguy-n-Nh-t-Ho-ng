@@ -1,0 +1,46 @@
+/* Thiết lập khoảng cách cơ bản cho trang */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Khoảng cách giữa các ô nhập liệu */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Cho các ô input nằm mỗi dòng 1 cái */
+label, input, span {
+    display: block;
+    width: 100%;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box; /* Giúp input không bị tràn viền */
+    border: 1px solid #aaa;
+    outline: none;
+}
+
+/* --- CÁC CLASS DÙNG ĐỂ BÁO LỖI --- */
+
+/* Chữ báo lỗi màu đỏ, kích thước nhỏ */
+.error-text {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+    height: 15px; /* Giữ sẵn khoảng trống để form không bị giật khi hiện lỗi */
+}
+
+/* Viền đỏ cho ô input khi nhập sai */
+.input-error {
+    border: 2px solid red;
+}
